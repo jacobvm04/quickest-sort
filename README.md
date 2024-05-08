@@ -1,6 +1,6 @@
 # Quickest Sort
 
-Blazingly fast quick-sort implementation validated with `proptest`.
+Blazingly fast quick-sort implementation validated with `proptest`. Writen in an effort to prepare for my Data Structures and Algorithms exam.
 
 ## Benchmarks
 
