@@ -4,7 +4,7 @@ Blazingly fast quick-sort implementation validated with `proptest` and `libFuzze
 
 ## Benchmarks
 
-Run benchmarks with `cargo bench` (requires rust nightly).
+Run benchmarks with `cargo bench` (requires rust nightly). The benchmark measures the time taken to sort a randomly generated vector of 10,000 integers.
 
 Benchmark results on my M2 MBP Pro:
 
