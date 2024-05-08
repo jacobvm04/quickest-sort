@@ -42,9 +42,8 @@ where
     sort(&mut array[(left_count + 1)..]); // sort right sub-array
 }
 
-/// baseline slow sorting algorithm to compare to
-#[cfg(test)]
-fn selection_sort(array: &mut [i32]) {
+/// Slow baseline sorting algorithm to compare to
+pub fn selection_sort(array: &mut [i32]) {
     if array.len() < 1 {
         return;
     }
