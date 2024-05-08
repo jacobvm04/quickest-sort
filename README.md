@@ -6,7 +6,7 @@ Blazingly fast quick-sort implementation validated with `proptest` and `libFuzze
 
 Run benchmarks with `cargo bench` (requires rust nightly).
 
-Benchmark results on an M2 Max Macbook:
+Benchmark results on my M2 MBP Pro:
 
 ```sh
 test tests::bench_quickest_sort_i32     ... bench:     412,916 ns/iter (+/- 36,892)
