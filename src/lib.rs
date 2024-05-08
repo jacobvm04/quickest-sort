@@ -2,7 +2,7 @@
 
 extern crate test;
 
-/// Quick sort in place
+/// Quick-sort in place
 ///
 /// Example
 /// ```
@@ -25,7 +25,7 @@ where
     let (pivot, sub_array) = array.split_at_mut(1);
     let pivot = &pivot[0];
 
-    let mut left_count = 0; // initially 1 because the pivot will be in the left sub-array for sure
+    let mut left_count = 0;
 
     for i in 0..sub_array.len() {
         if &sub_array[i] < pivot {
