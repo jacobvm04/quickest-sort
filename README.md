@@ -1,6 +1,6 @@
 # Quickest Sort
 
-Blazingly fast quick-sort implementation validated with `proptest` and `libFuzzer`.
+Blazingly fast quick-sort implementation validated with `proptest` and `libFuzzer`. Writen in an effort to prepare for my Data Structures and Algorithms exam.
 
 ## Benchmarks
 
