@@ -19,8 +19,10 @@ test tests::bench_std_sort_unstable_i32 ... bench:     238,943 ns/iter (+/- 10,2
 
 ### Property-based testing
 
-This project uses property based testing via `proptest`. It can be ran by executing `cargo run test`. Using `--release` is recommended for much faster exeuction speed.
+This project uses property based testing via `proptest`. It can be ran by executing `cargo run test`. 
+
+Using `--release` is highly recommended to greatly decrease execution time.
 
 ### Fuzzing
 
-This project can be fuzzed using `cargo-fuzzer` with `libFuzzer`. Fuzzing can be ran by running `cargo fuzz run fuzz_target_1`.
+This project can be fuzzed using `cargo-fuzzer` with `libFuzzer` by running `cargo fuzz run fuzz_target_1`.
